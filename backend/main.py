@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_KEY = "YOUR_API_KEY"
+API_KEY = "4eb6e0ffbcbde3b079c5227e9b9676b8"
 
 user_tokens = []
 
