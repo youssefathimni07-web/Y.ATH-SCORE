@@ -5,7 +5,7 @@ export function useSocket() {
   const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
-    const socket = io("http://localhost:8000");
+    const socket = io("https://y-ath-score-9.onrender.com");
 
     socket.on("live", (msg) => {
       setData(msg.response || []);
