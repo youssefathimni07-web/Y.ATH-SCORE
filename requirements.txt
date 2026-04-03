@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+python-socketio
+firebase-admin
+scikit-learn
+python-dotenv
